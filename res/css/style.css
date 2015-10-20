@@ -15,6 +15,19 @@ a:hover {
     text-decoration: underline;
 }
 
+::-webkit-input-placeholder {
+    color:    #555;
+}
+:-moz-placeholder {
+    color:    #555;
+}
+::-moz-placeholder {
+    color:    #555;
+}
+:-ms-input-placeholder {
+    color:    #555;
+}
+
 #heading {
     width: 100%;
     height: 120px;
@@ -34,7 +47,7 @@ a:hover {
 #content {
     margin: -30px auto;
     background-color: #FFFFFF;
-    width: 960px;
+    width: 900px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -49,7 +62,7 @@ a:hover {
 }
 
 .tabs {
-    width:160px;
+    width:150px;
     height:60px;
     padding-top: 20px;
     -webkit-box-sizing: border-box;
@@ -148,6 +161,7 @@ a:hover {
 
 #left-sidebar {
     position: absolute;
+    width: 200px;
     left: 35px;
     top: 160px;
     z-index: 0;
@@ -171,27 +185,73 @@ a:hover {
 
 #searchbar {
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 20px;
 }
 
 #container-1 {
-    width: 200px;
+    width: 230px;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
 }
 
-.container-1 input#search{
-  width: 200px;
-  height: 50px;
-  background: #2b303b;
+#container-1 input#search{
+  width: 230px;
+  height: 30px;
+  background-color: rgba(255,255,255,0.3);
   border: none;
   font-size: 10pt;
   float: left;
-  color: #63717f;
-  padding-left: 45px;
+  padding: 10px;
+  color: #2C3E50;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+#right-sidebar {
+    position: absolute;
+    right: 35px;
+    width: 200px;
+    top: 160px;
+    z-index: 0;
+}
+
+#right-sidebar #username {
+    font-size: 20px;
+    margin-top: 0px;
+    color: #3498DB;
+}
+
+#right-sidebar .main {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#submit {
+    background-color: #3498DB;
+    text-align: center;
+    padding: 10px;
+    -webkit-transition:  0.15s; /* Safari */
+    transition: 0.15s;
+}
+
+#submit:first-child {
+    -webkit-border-top-left-radius: 5px;
+            border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+            border-top-right-radius: 5px;
+}
+
+#submit:last-child {
+    -webkit-border-bottom-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #E74C3C;
+    color: #ECF0F1;
 }
