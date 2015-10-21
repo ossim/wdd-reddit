@@ -327,13 +327,20 @@ input[type="text"]:focus {
 	margin-top: 5px;
 }
 
-.search-link-title {
-	font-size: 20px;
-	color: blue;
-    margin-left: 20px;
+.subreddit {
+    height: 40px;
+    top: 50%;
+    display: inline;
 }
 
-.btn-subscribe {
+.subreddit .search-link-title {
+	font-size: 20px;
+	color: blue;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.subreddit .btn-subscribe {
   background: #34d955;
   background-image: -webkit-linear-gradient(top, #34d955, #2a9925);
   background-image: -moz-linear-gradient(top, #34d955, #2a9925);
@@ -350,11 +357,27 @@ input[type="text"]:focus {
   width: 55px;
   height: 15px;
   font-size: 13px;
+  display: inline;
   margin-left: 20px;
-  float: left;
 }
 
-.btn-subscribe:hover {
+.subreddit .btn-subscribe:hover {
   background: #29ad2e;
   text-decoration: none;
+}
+
+.subreddit .details {
+    color: #B3B3B3;
+    display: inline;
+}
+
+.subreddit .body {
+    margin-left: 20px;
+    display: inline;
+}
+
+.subreddit .internalsearch {
+    color: blue;
+    display: inline;
+    margin-left: 20px;
 }
