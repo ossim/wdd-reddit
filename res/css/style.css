@@ -159,11 +159,15 @@ a:hover {
     margin-top: -30px;
     height: 40px;
     top: 50%;
-    cursor: hand;
 }
 
 .post-body .title {
     display: inline;
+}
+
+.post-body .title:hover {
+    color: blue;
+    cursor: hand;
 }
 
 .post-body .details {
@@ -388,6 +392,11 @@ input[type="text"]:focus {
 .subreddit .body {
     margin-left: 20px;
     display: inline;
+}
+
+.subreddit .body:hover {
+    color: blue;
+    cursor: hand;
 }
 
 .subreddit #search-container {
