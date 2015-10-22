@@ -241,6 +241,10 @@ a:hover {
     cursor: hand;
 }
 
+#right-sidebar #username:hover {
+    color: blue;
+}
+
 #right-sidebar .main {
     font-weight: 600;
     letter-spacing: 1px;
@@ -279,7 +283,7 @@ a:hover {
 	height: 70px;
 	margin-top: 2px;
 	margin-left: 2px;
-  margin-right: 3px;
+    margin-right: 3px;
 	float: left;
 }
 
@@ -416,4 +420,188 @@ input[type="text"]:focus {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+
+#body-comment {
+    font-size: 12px;
+    margin: 0px;
+    padding: 10px 20px;
+    background-color: #EBF0F5;
+    position: relative;   
+}
+
+.report {
+    position: relative;
+    text-align: right;
+    font-size: 14px;
+    top: 160px;
+    color:#B3B3B3;
+}
+
+.post-content .tag {
+    display: inline;
+    color: blue;
+    position: relative;
+    font-size: 18px;
+    top: 20px;
+    left: 20px;
+
+}
+.post-content .comment {
+    position: relative;
+    display: inline;
+    font-size: 18px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.post-content {
+    margin: 70px auto;
+    background-color: #FFFFFF;
+    height: 325px;
+    width: 700px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    box-shadow: 0 10px 30px #ddd;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 2; 
+}
+
+.post-content .title-name {
+    position: relative;
+    display: inline;
+    color: #B3B3B3;
+    font-size: 18px;
+    top: 20px;
+    left: 20px;
+}
+.post-content .details {
+    position: relative;
+    left: 5px;
+}
+.small-details {
+    color: #B3B3B3;
+    position: relative;
+    text-align: center;
+    right: 50px;
+    bottom: 15px;
+    font-size: 12px;
+}
+
+.voting-2 {
+    position: relative;
+    top: 20px;
+    padding: 10px;
+}
+
+
+.voting-2 .upvote {
+    position: absolute;
+    margin-top: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: rgba(52,152,219,0.3);
+    float: left;
+    cursor: hand;
+}
+
+.voting-2 .upvote:hover {
+    background-color:blue ;
+}
+
+.voting-2 .downvote {
+    position: absolute;
+    margin-top: 30px;
+    left: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: rgba(231,76,60,0.3);
+    float: left;
+    cursor: hand;
+}
+
+.voting-2 .downvote:hover {
+    background-color:red ;
+}
+
+.voting-2 .score {
+    left: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 35px;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+.voting-2 .icon {
+    margin-top: 15px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-image: url('http://i2.kym-cdn.com/photos/images/list/000/650/725/9ff.jpg');
+    background-size: 30px 30px;
+    float: left;
+}
+
+.voting-2 .details {
+    color: #B3B3B3;
+    text-align: right;
+}
+
+.voting-2 .small-title {
+    font-size: 12px;
+    margin: -10px;
+    background-color: #EBF0F5;
+    padding: 15px 30px;
+    
+
+}
+.voting-2 .title-2{
+    font-size: 12px;
+    
+    padding: 15px 30px;
+
+}
+.voting-2 .small-details-2 {
+    color: #B3B3B3;
+    position: relative;
+    text-align: center;
+    right: 50px;
+    bottom: 40px;
+    font-size: 12px;
+}
+
+#content-2 {
+    margin: -30px auto;
+    position: relative;
+    background-color: #FFFFFF;
+    height: 340px;
+    width: 700px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    box-shadow: 0 10px 30px #ddd;
+    border-radius: 30px;
+    z-index: 2;
+}
+#rules-bar {
+    position: absolute;
+    margin-top: 50px;
+}
+#rules-title {
+    font-size: 15px;
+    font-weight: 800; 
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+#rules {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
 }
